@@ -1,0 +1,41 @@
+{
+    "NombreEleccion" : "Eleccion XXX para el periodo del 1 de enero de 2021 al 30 de diciembre de 2024",
+    "FechaHora" : "01/03/2021 08:00",
+    "Candidatos" : [
+        {
+            "Id" : 1,
+            "Nombre" : "Jon",
+            "Imagen" : "./imagenes/Candidato1.png",
+            "Seleccionada" : false,
+            "CantidadVotos" : 0
+        },
+        {
+            "Id" : 3,
+            "Nombre" : "Susan",
+            "Imagen" : "./imagenes/Candidato3.jpg",
+            "Seleccionada" : false,
+            "CantidadVotos" : 0
+        },
+        {
+            "Id" : 4,
+            "Nombre" : "Ana",
+            "Imagen" : "./imagenes/Candidato4.png",
+            "Seleccionada" : false,
+            "CantidadVotos" : 0
+        },
+        {
+            "Id" : 5,
+            "Nombre" : "NULO",
+            "Imagen" : "./imagenes/nulo2.png",
+            "Seleccionada" : false,
+            "CantidadVotos" : 0
+        },
+        {
+            "Id" : 6,
+            "Nombre" : "BLANCO",
+            "Imagen" : "./imagenes/blanco.png",
+            "Seleccionada" : false,
+            "CantidadVotos" : 0
+        }
+    ]    
+}

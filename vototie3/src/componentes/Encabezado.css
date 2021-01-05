@@ -1,0 +1,115 @@
+:root {
+    --color-gris-menu: #adaca8;
+    --color-azul-tec: #005085 
+}
+.estiloLabelCabecera {
+    padding-left: 20px;
+    min-height: 50px;
+    padding-left: 10px;
+    background-color: var(--color-azul-tec);
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+};
+
+.vert-align {
+    top:0;
+    position: fixed;
+    z-index:100;
+}
+
+.encabezado {
+    background-color: var(--color-azul-tec);
+    border-bottom: 1px solid var(--color-azul-tec);
+    font-size: 20px;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: #FFF;
+    font-weight: bold;
+    z-index: 100000;/* 999900; */
+}
+.encabezadoLinea1 {
+    border-top: 0px;
+    padding-left: 20px;
+}
+.menu {
+    width: 100%;
+    background-color:var(--color-gris-menu);
+    max-height: 40px;
+}
+.dropdown-menu.show {
+    background-color:var(--color-gris-menu);
+    width: 300px;
+}
+.dropdown-item {
+    background-color:var(--color-gris-menu);
+}
+.itemMenu {
+    background-color:var(--color-gris-menu);
+}
+.logoEncabezado {
+    margin: 0;
+    padding: 0;
+    max-width:200px; 
+    height:auto;
+}
+.nombreAplicacion {
+    padding-left: 20px;
+}
+.margen_automatico {
+    margin: auto;
+}
+
+.NombreUsuario{
+    width: 180px;
+    display: block;
+    margin: 5px auto;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: rgba(0,0,0,.87);
+    text-align: left;
+    cursor: pointer;
+}
+
+.fuenteTituloSistema {
+    margin-top:10px;
+    color: var(--color-azul-tec);
+    font-weight:bold;
+    font-size:20px
+}
+
+.BarraNavegacion {
+    background-color: #eaebec; 
+    margin-top: 94px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.DatosSocio {
+    background-color: #eaebec; 
+    margin-top: 94px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.BarraNavegacionFormulario {
+    background-color: #eaebec; 
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}

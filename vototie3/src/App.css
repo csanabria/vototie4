@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  /* color: black; white; */
+  color:black;
+}
+
+.logoTIEpeq {
+  width: 200px;
+  height: 200px;
+}
+
+.contenido {
+  /* margin-top: 100vh; */
+  align-items: center;
+  justify-content: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.card {
+  color: black;
+  margin: 20px;
+}
+
+.tablaBotonesConfirmar {
+  border: 0;
+  margin: 40px;
+  width: 640px; 
+  border-collapse: collapse; 
+  border-spacing: 0;
+}
+
+.tablaBotonesConfirmar tr td {
+  border: 0;
+  text-align: center;
+  width: 100px;
+}
+.tdespacio {
+  width: 10px;
+}
+
+
+.tablaresultados {
+  margin: 40px;
+  width: 640px; 
+  border-collapse: collapse; 
+  border-spacing: 0;
+}
+.tablaresultados td, th { border: 1px solid #000; } 
+.tablaresultados thead {
+  border: 2px s;
+  color: red;
+  font-weight: bold;
+}
+/* .tablaresultados tr:first-child td {
+  color: red;
+} */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
